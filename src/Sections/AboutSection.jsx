@@ -9,7 +9,7 @@ const AboutSection = () => {
       <div className=" lg:w-[50%] h-full flex items-center justify-start ">
         <img
           className=" object-cover rounded-3xl h-[600px]"
-          src="/images/sujith.jpg"
+          src="/images/sujith-2.jpeg"
           loading="lazy"
         />
       </div>
