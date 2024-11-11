@@ -20,7 +20,7 @@ const AboutSection = () => {
         </div>
 
         <div className="flex flex-col items-center justify-between gap-5">
-          <div className=" text-xl lg:text-[15px] ">
+          <div className=" text-xl lg:text-[16px] ">
             Hi there! My name is Sujith Karthikaiselvan and I'm 25 years old
             ambitious MERN-Stack developer. I'm from Coimbatore, Tamil Nadu,
             India. I graduated from the University of Lincoln with a degree in
@@ -28,13 +28,13 @@ const AboutSection = () => {
             Electrical and Electronics Engineering. Now I'm looking for a new
             position and new challenges.
           </div>
-          <div className=" text-xl lg:text-[15px] ">
+          <div className=" text-xl lg:text-[16px] ">
             After completing my master's I decided to change my career path so I
             started learning different skills That is how I chose Mern-stack
             development. And then I did some online courses and developed my
             websites.
           </div>
-          <div className=" text-xl lg:text-[15px] ">
+          <div className=" text-xl lg:text-[16px] ">
             I'm a passionate developer who loves building scalable and efficient
             applications using the MERN stack. My goal is to help you achieve
             your goals and create a successful career in the tech industry.

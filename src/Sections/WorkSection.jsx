@@ -16,24 +16,24 @@ const WorkSection = () => {
           />
         </div>
         <div className=" lg:w-[50%] flex flex-col gap-5 justify-center h-full">
-          <div className=" text-xl font-semibold tracking-wide ">
+          <div className=" text-2xl font-semibold tracking-wide ">
             This is a simple Employee dashboard.
           </div>
           <h1 className=" text-xl">Dashboard</h1>
           <div className="flex flex-col items-center justify-between gap-5">
-            <div className=" text-xl lg:text-[15px] ">
+            <div className=" text-xl lg:text-[16px] ">
               This is an employee website sample where the admin can create,
               read, update, and delete the employee. However, the employee can
               only view his details on the website. On this website, I used
               Oauth for authentication and JWT token for authorization. Where
               only the admin can perform certain actions.
-              <p className=" text-xl lg:text-[15px] ">
+              <p className=" text-xl lg:text-[16px] ">
                 <br />
                 Tech: ReactJS, Nodejs, TailwindCSS and Mongodb
               </p>
             </div>
 
-            <div className=" text-xl lg:text-[15px] ">
+            <div className=" text-xl lg:text-[16px] ">
               In this, I used ReactJS for the frontend NodeJS for the backend
               tailwind for styling and Mongodb for the database.
             </div>
@@ -57,24 +57,24 @@ const WorkSection = () => {
           />
         </div>
         <div className=" lg:w-[50%] flex flex-col gap-5 justify-center h-full">
-          <div className=" text-xl font-semibold tracking-wide ">
+          <div className=" text-2xl font-semibold tracking-wide ">
             This is a simple restaurant project design.
           </div>
           <h1 className=" text-xl">Restaurant</h1>
           <div className="flex flex-col items-center justify-between gap-5">
-            <div className=" text-xl lg:text-[15px] ">
+            <div className=" text-xl lg:text-[16px] ">
               This website was built for a client to show our design for their
               website designs this sample website gives the menu and other
               details of the restaurant and it is a sample design, not an
               production one. This website explains the design for the clients
               restaurant website.
-              <p className=" text-xl lg:text-[15px] ">
+              <p className=" text-xl lg:text-[16px] ">
                 <br />
                 Tech: ReactJS and TailwindCSS
               </p>
             </div>
 
-            <div className=" text-xl lg:text-[15px] ">
+            <div className=" text-xl lg:text-[16px] ">
               In this, I have used Reactjs to develop the UI of the website
               which consists of images, menu items, and restaurant information.
               For the animation part framer motion is used.
@@ -99,12 +99,12 @@ const WorkSection = () => {
           />
         </div>
         <div className=" lg:w-[50%] flex flex-col gap-5 justify-center h-full">
-          <div className=" text-xl font-semibold tracking-wide ">
+          <div className=" text-2xl font-semibold tracking-wide ">
             This is a simple design designed for photography project.
           </div>
           <h1 className=" text-xl">Photography</h1>
           <div className="flex flex-col items-center justify-between gap-5">
-            <div className=" text-xl lg:text-[15px] ">
+            <div className=" text-xl lg:text-[16px] ">
               This Photography website was created with with ReactJs and Framer
               motion this website is a sample website to display your
               photographs with good animation. These websites help you build a
@@ -112,7 +112,7 @@ const WorkSection = () => {
               explains in detail how the client's photo works.
             </div>
 
-            <div className=" text-xl lg:text-[15px] ">
+            <div className=" text-xl lg:text-[16px] ">
               In this, I have used Reactjs to develop the UI of the website
               which consists of images and the client's information. For the
               animation part framer motion is used.
