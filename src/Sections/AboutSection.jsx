@@ -14,15 +14,25 @@ const AboutSection = () => {
         />
       </div>
       <div className=" lg:w-[50%] flex flex-col gap-5 justify-center h-full">
-        <div className=" text-3xl font-semibold tracking-wide ">
+        <h1 className=" text-3xl font-bold">My story</h1>
+        <div className=" text-2xl font-semibold tracking-wide ">
           This is my story of becoming an MERN-stack developer
         </div>
-        <h1 className=" text-2xl">My story</h1>
+
         <div className="flex flex-col items-center justify-between gap-5">
           <div className=" text-xl lg:text-[15px] ">
-            Hi there ! My name is Sujith Karthikaiselvan and I'm 25 years old
-            ambitious MERN-Stack developer. Now I'm looking for a new position
-            and new challenges{" "}
+            Hi there! My name is Sujith Karthikaiselvan and I'm 25 years old
+            ambitious MERN-Stack developer. I'm from Coimbatore, Tamil Nadu,
+            India. I graduated from the University of Lincoln with a degree in
+            Robotics and Autonomous systems and Also have a Bachler degree in
+            Electrical and Electronics Engineering. Now I'm looking for a new
+            position and new challenges.
+          </div>
+          <div className=" text-xl lg:text-[15px] ">
+            After completing my master's I decided to change my career path so I
+            started learning different skills That is how I chose Mern-stack
+            development. And then I did some online courses and developed my
+            websites.
           </div>
           <div className=" text-xl lg:text-[15px] ">
             I'm a passionate developer who loves building scalable and efficient

@@ -9,16 +9,18 @@ import WorkSection from "./Sections/WorkSection";
 
 const AppLayout = () => {
   return (
-    <div className=" flex flex-col gap-5 md:mx-[50px]  px-2">
-      {/* <Header /> */}
-      <Herosection />
-      <div className=" border p-4 rounded-3xl bg-gradient-to-t from-gray-700 via-gray-900 to-black">
-        <AboutSection />
-        <Quotes />
-        <SkillsSection />
+    <div className=" flex flex-col gap-5 md:mx-[50px]  px-2 font-body py-4 ">
+      <Header />
+      <div className=" mt-[150px] flex flex-col gap-5">
+        <Herosection />
+        <div className=" border p-4 rounded-3xl bg-gradient-to-t from-gray-700 via-gray-900 to-black">
+          <AboutSection />
+          <Quotes />
+          <SkillsSection />
+        </div>
+        <WorkSection />
+        <ContactSection />
       </div>
-      <WorkSection />
-      <ContactSection />
       <Footer />
     </div>
   );
