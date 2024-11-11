@@ -132,6 +132,47 @@ const WorkSection = () => {
           </div>
         </div>
       </section>
+
+      <section className="  md:h-[400px] md:w-[100%] flex lg:flex-row flex-col md:gap-7 gap-5 items-center justify-around rounded-3xl border p-4 bg-gradient-to-t from-gray-700 via-gray-900 to-black text-white">
+        <div className=" lg:w-[50%] h-full flex items-center justify-center bg-white rounded-3xl ">
+          <img
+            className=" object-cover rounded-3xl h-[300px] hover:opacity-15"
+            src="/images/quiz.webp"
+            loading="lazy"
+          />
+        </div>
+        <div className=" lg:w-[50%] flex flex-col gap-5 justify-center h-full">
+          <div className=" text-2xl font-semibold tracking-wide ">
+            This is a simple Quiz Application.
+          </div>
+          <h1 className=" text-xl">Quiz App</h1>
+          <div className="flex flex-col items-center justify-between gap-5">
+            <div className=" text-xl lg:text-[16px] ">
+              This website was built to demonstrate a simple quiz app that has
+              its data. This displays the total number of questions and several
+              correct and wrong answers. The total score is displayed in
+              percentage with the progress bar.
+              <p className=" text-xl lg:text-[16px] ">
+                <br />
+                Tech: ReactJS and TailwindCSS
+              </p>
+            </div>
+
+            <div className=" text-xl lg:text-[16px] ">
+              In this, I have used Reactjs to develop the UI of the website and
+              consists of quiz datas.
+            </div>
+          </div>
+          <div className=" flex gap-5 items-center ">
+            <a href="https://github.com/Sujith0604/Quiz-App.git">
+              <GitHubIcon />
+            </a>
+            <a href="https://quiz-app-one-indol-67.vercel.app/">
+              <WebIcon />
+            </a>
+          </div>
+        </div>
+      </section>
     </section>
   );
 };
