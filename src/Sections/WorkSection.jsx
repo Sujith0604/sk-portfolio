@@ -157,11 +157,6 @@ const WorkSection = () => {
                 Tech: ReactJS and TailwindCSS
               </p>
             </div>
-
-            <div className=" text-xl lg:text-[16px] ">
-              In this, I have used Reactjs to develop the UI of the website and
-              consists of quiz datas.
-            </div>
           </div>
           <div className=" flex gap-5 items-center ">
             <a href="https://github.com/Sujith0604/Quiz-App.git">
